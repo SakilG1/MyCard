@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* || RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--NUNITO);
+  font-weight: 500;
+
+}
+
+img {
+  display: block;
+}
+
+/* || VARIABLES */
+
+:root{
+    --NUNITO: "Nunito", sans-serif;
+}
+
+/* || GENERAL */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  border: 2px solid black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  height: 50vh;
+  max-height: 500px;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 1px #333;
+  background-color: aliceblue;
+
+.card__img {
+  display: flex;
+  justify-content: center;
+}
+.card__img img {
+  width: 33%;
+  height: auto;
+  border: 4px double #333;
+  border-radius: 50%;
+}
+
+}
+.card__header{
+    font-weight: 800;
+}
+
+.card__p{
+    margin: .5rem 0rem;
+}
+
+.card__social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.card__social-icon{
+    width: 30px;
+    height: auto;
+}
+
+.card__button{
+    margin: .5rem 0rem;
+    padding: .25rem 1rem;
+    border-radius: .5rem;
+    border: 0;
+    background-color: #3F72EC;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
